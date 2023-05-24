@@ -1,0 +1,15 @@
+.card{
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 10%;
+  height: 50%;
+  margin: auto;
+  font-size: 10px;
+  color: #2af72a;
+
+}
+
+img{
+  max-width: 100%;
+  align-self: start;
+}
+
