@@ -8,7 +8,7 @@ const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
 
 // URL ----> postgres://DB_USER:DB_PASSWORD@DB_HOST/rickandmorty
 const sequelize = new Sequelize(
-  `postgres://DB_USER:DB_PASSWORD@DB_HOST/rickandmorty`,
+  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/rickandmorty`,
   { logging: false, native: false }
 );
 
